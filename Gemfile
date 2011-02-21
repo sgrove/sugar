@@ -40,7 +40,7 @@ gem 'hpricot'
 gem 'daemon-spawn', '0.2.0'
 gem 'newrelic_rpm'
 
-gem 'delayed_job', '2.1.3'
+gem "delayed_job", :git => "git://github.com/pda/delayed_job.git"
 #gem 'thinking-sphinx', :git => 'git://github.com/freelancing-god/thinking-sphinx.git', :branch  => 'rails3', :require => 'thinking_sphinx'
 gem 'thinking-sphinx', '2.0.2', :require => 'thinking_sphinx'
 
